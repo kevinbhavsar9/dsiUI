@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap");
+
+#navbar {
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 100%; */
+  height: 100px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Sspan {
+  color: #ec323b;
+}
+#Ispan {
+  color: #ffc542;
+}
+
+#sub1 {
+  /* margin: 3% 5%; */
+  width: 25%;
+  margin-left: 11%;
+  padding-right: 4%;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  /* position: absolute; */
+  width: 119px;
+  height: 56px;
+  /* left: 158px; */
+  left: 7%;
+  top: 22px;
+}
+#label {
+  color: rgba(31, 46, 53, 0.8);
+  display: flex;
+  flex-direction: column;
+}
+#bat {
+  display: none;
+}
+#label #one {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 143.19%;
+  /* or 14px */
+
+  letter-spacing: 0.065em;
+}
+#label #two {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+
+  letter-spacing: 0.015em;
+}
+#label #three {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+
+  letter-spacing: -0.05em;
+}
+#sub1 h1 {
+  margin: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.05em;
+
+  color: #85171a;
+}
+
+#sub2 {
+  color: rgba(31, 46, 53, 0.8);
+
+  position: absolute;
+  left: 25%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/* #sub2 div {
+  padding: 0px 5px;
+  list-style: none;
+} */
+
+#sub3 {
+  position: absolute;
+  right: 5%;
+  display: flex;
+  width: 10%;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 940px) {
+  body {
+    /* background-color: black; */
+  }
+
+  #bat {
+    display: block;
+    margin-right: 70px;
+  }
+  #sub2 {
+    display: none;
+    /* display: fslex; */
+    /* flex-direction: column; */
+  }
+  #sub3 {
+    display: none;
+  }
+}

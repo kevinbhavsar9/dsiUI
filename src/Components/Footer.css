@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+#footer {
+  background-color: #ee4248;
+  position: relative;
+  height: 64px;
+}
+#footer h3 {
+  width: 100%;
+  color: #ffffff;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
+#span2 {
+  font-weight: 500;
+}
+#span1 {
+  font-weight: 400;
+}

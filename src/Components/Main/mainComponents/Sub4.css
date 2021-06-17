@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+#Sspan {
+  color: #ec323b;
+}
+#Ispan {
+  color: #ffc542;
+}
+
+#b1son {
+  /* margin: 3% 5%; */
+  /* width: 25%; */
+  /* margin-left: 11%; */
+  /* padding-right: 4%; */
+
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* display: flex; */
+  /* position: absolute; */
+  width: 119px;
+  height: 56px;
+  /* left: 158px; */
+  /* left: 7%; */
+  /* top: 22px; */
+}
+#labal {
+  color: rgba(31, 46, 53, 0.8);
+  display: flex;
+  flex-direction: column;
+}
+#labal #onee {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 143.19%;
+  /* or 14px */
+
+  letter-spacing: 0.065em;
+}
+#labal #tww {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+
+  letter-spacing: 0.015em;
+}
+#labal #thre {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+
+  letter-spacing: -0.05em;
+}
+#b1son h1 {
+  margin: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.05em;
+
+  color: #85171a;
+}
+
+#Sub4 {
+  display: flex;
+  margin: 27px 0px;
+  /* flex-wrap: wrap; */
+}
+
+#b1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 180px;
+  width: 21%;
+}
+#b1son {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#b2 {
+  padding-top: 9px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  text-align: initial;
+  color: #263238;
+}
+#b3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 149.19%;
+  /* or 27px */
+  text-align: initial;
+  color: #263238;
+}
+#c2 {
+  margin-left: 52px;
+}
+
+#c2 h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 16px 0px;
+  color: #263238;
+  text-align: initial;
+}
+
+#c2 div {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 149.19%;
+  /* or 27px */
+
+  color: #263238;
+  text-align: initial;
+}
+#c3 {
+  /* display: flex; */
+  /* flex-wrap: wsrap; */
+  width: 37%;
+  margin-left: 65px;
+}
+.c3img {
+  margin: 20px 20px;
+}
